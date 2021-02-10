@@ -26,3 +26,23 @@ In any case the output will include something of the form:
 ```{r test-python, engine='bash'}
 The results are: {'bits': numberOfMeasurements, ...}
 ```
+
+## Instalation
+Install it with the pip package manager:
+```{r test-python, engine='bash'}
+pip install oqi
+```
+
+## Features
+
+Custom errors:
+
+![image](screenshots/errors.png)
+
+Draw and run your circuits:
+
+![image](screenshots/draw.png)
+
+## Acknowledgements
+
+The token analyser as well as many other things needed in order to run the interpreter came from the [qiskit repo](https://github.com/Qiskit). My apportation was to create the pip package and some wrapping in order to run the interpreter.
