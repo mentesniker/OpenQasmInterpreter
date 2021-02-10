@@ -1,2 +1,2 @@
-# OpenQasmCompiler
-Compiler for OpenQasm programming language
+# OpenQasmInterpreter
+Interpreter for OpenQasm programming language
