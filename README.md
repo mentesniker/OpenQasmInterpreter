@@ -27,7 +27,7 @@ In any case the output will include something of the form:
 The results are: {'bits': numberOfMeasurements, ...}
 ```
 
-## Instalation
+## Installation
 Install it with the pip package manager:
 ```{r test-python, engine='bash'}
 pip install oqi
