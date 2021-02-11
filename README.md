@@ -1,6 +1,6 @@
 # OpenQasmInterpreter (oqi)
 
-This package interprets a .qasm file and then outputs the results to the console. All of the executions are made using the qasm simulator. Moreover you can specify different options to run your circuit. 
+This package interprets a .qasm 2.0 file and then outputs the results to the console. All of the executions are made using the qasm simulator. Moreover you can specify different options to run your circuit. 
 
 To just run your .qasm file you'll have to run:
 
@@ -45,4 +45,4 @@ Draw and run your circuits:
 
 ## Acknowledgements
 
-The token analyser as well as many other things needed in order to run the interpreter came from the [qiskit repo](https://github.com/Qiskit). My apportation was to create the pip package and some wrapping in order to run the interpreter.
+The token analyser and many other things needed in order to run the interpreter came from the [qiskit repo](https://github.com/Qiskit). My contribution was to create the pip package and some wrapping in order to run their interpreter.

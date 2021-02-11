@@ -4,3 +4,5 @@
     * Removed unused imports
 ### v1.0.2
     * Added config to run from command line
+### v1.0.3
+    * Added qiskit requirement due to compatibility problems

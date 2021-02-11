@@ -8,7 +8,7 @@ with open('HISTORY.md') as history_file:
 
 setup_args = dict(
     name='oqi',
-    version='1.0.2',
+    version='1.0.3',
     description='Open Qasm interpreter.',
     long_description_content_type="text/markdown",
     long_description=README + '\n\n' + HISTORY,
@@ -21,7 +21,7 @@ setup_args = dict(
     download_url='https://pypi.org/project/oqi/'
 )
 install_requires = [
-    'qiskit'
+    'qiskit<0.23.5'
 ]
 
 if __name__ == '__main__':
