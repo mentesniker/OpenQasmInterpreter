@@ -3,15 +3,12 @@ from setuptools import setup, find_packages
 with open('README.md') as readme_file:
     README = readme_file.read()
 
-with open('HISTORY.md') as history_file:
-    HISTORY = history_file.read()
-
 setup_args = dict(
     name='oqi',
-    version='1.0.3',
+    version='1.0.5',
     description='Open Qasm interpreter.',
     long_description_content_type="text/markdown",
-    long_description=README + '\n\n' + HISTORY,
+    long_description=README,
     license='MIT',
     packages=find_packages(),
     author='Luis Mtz.',
@@ -21,7 +18,7 @@ setup_args = dict(
     download_url='https://pypi.org/project/oqi/'
 )
 install_requires = [
-    'qiskit<0.23.5'
+    'qiskit'
 ]
 
 if __name__ == '__main__':

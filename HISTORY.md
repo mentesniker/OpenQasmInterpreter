@@ -6,3 +6,7 @@
     * Added config to run from command line
 ### v1.0.3
     * Added qiskit requirement due to compatibility problems
+### v1.0.4
+    * Removed qiskit requirement due to compatibility problems
+### v1.0.5
+    * Fixed a file not found bug
